@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Land Of Boxes Order Form</title>
+    </head>  
+    <body>
+        <div>
+            <fieldset style="width:35%">
+                <form action="" method="">
+                    <b><font  size="5" color="orange">Land Of Boxes Order Form</font></b>
+                    <br><br>
+                    <table >
+                        <tr>
+                            <td align="right"><label for="name">Name:</label></td>
+                            <td><input type="text" size = "30" id="name" name="name" placeholder="Walaa Brody"></td>
+                        </tr>
+                        <tr>
+                            <td align="right"><label for="email">Email:</label></td>
+                            <td><input type="email" size = "30" id="email" name="email" placeholder="w.brody@widget-sales.com"></td>
+                        </tr>
+
+                        <tr>
+                            <td align="right"><label for ="address">Address:</label></td>
+                            <td><textarea id="address" name= "address" cols="31" rows="5" placeholder="162 Main Road &#10Rondebosch &#10Cape Town"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label for ="postcode">Postcode:</label></td>
+                            <td><input type="text" size="17" id="postcode" name = "postcode" placeholder="770"></td>
+                        </tr>
+                    </table>
+
+                    <br>
+                    <br>
+
+                    <table border="1" >
+                        <tr  align="left">
+                            <th>Product</th>
+                            <th>Part Number</th>
+                            <th>Quantity</th>
+                            <th>Unit Price</th>
+                            <th>Subtotal</th>
+                        </tr>
+
+                        <tr>
+                            <td>EconoBox</td>
+                            <td>LB100</td>
+                            <td ><input type="text" size="5" placeholder ="3"></td>
+                            <td>R5</td>
+                            <td><input type="text" size="5" placeholder ="R15"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Standard Box</td>
+                            <td>LB200</td>
+                            <td><input type="text" size="5" placeholder="4"></td>
+                            <td>R10</td>
+                            <td><input type="text" size="5" placeholder="R40"></td>
+                        </tr>
+                        <tr>
+                            <td>Premium Box</td>
+                            <td>LB300</td>
+                            <td><input type="text" size="5" placeholder="1"></td>
+                            <td>R15</td>
+                            <td><input type="text" size="5" placeholder="R15"></td>
+                        </tr>
+                        <tr>
+                            <td>Deluxe Box</td>
+                            <td>LB400</td>
+                            <td><input type="text" size="5" placeholder="0"></td>
+                            <td>R20</td>
+                            <td><input type="text" size="5" placeholder=""></td>
+                        </tr>
+                        <tr>
+                            <td>Super Deluxe box</td>
+                            <td>LB500</td>
+                            <td><input type="text" size="5" placeholder="1"></td>
+                            <td>R30</td>
+                            <td><input type="text" size="5" placeholder="R30"></td>
+                        </tr>
+                        <tr align="right">
+                            <td  colspan="4">Total:</td>
+                            <td><input type="text" size="5" placeholder="R100"></td>
+                        </tr>
+                    </table>
+
+                    <br>
+                    <br>
+
+                    <b>Credit Card Details</b>
+
+                    <table border="0">
+                        <tr>
+                            <td colspan="3"><label for="choices">Card Type:</label></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type = "radio" id = "mastercard" name="choices" value="mastercard" checked>
+                            <label for = "mastercard">Mastercard</label></td>
+                        
+                            <td><label for ="card number">Card Number:</label></td>
+                            <td><input type="text" id="card number" name="card number" placeholder="45645"></td>
+                        </tr>
+                        <tr>
+                            <td><input type = "radio" id = "visa" name="choices" value="visa">
+                            <label for = "visa">Visa</label></td>
+
+                            <td><label for ="expdate">Expiry date:</label></td>
+                            <td><input align="right" type="text"  size="10" id="expdate" name="expdate" placeholder="03/99"></td>
+                        </tr>
+                        <tr>
+                            <td><input type = "radio" id = "american express" name="choices" value="american express">
+                            <label for = "american express">American express</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type = "radio" id = "diners club" name="choices" value="diners club">
+                            <label for = "diners club">Diners Club</label></td>
+                        </tr>
+                    </table>
+
+                    <br>
+                    <table>
+                        <tr>
+                            <td><label for="deliveryAdd"><b>Delivery Address:</b></label></td>
+                            <td><textarea id="deliveryAdd" cols="31" rows="5" placeholder="162 Main Road &#10Rondebosch &#10Cape Town"></textarea></td>
+                        </tr>
+                    </table>
+
+                    <br>
+
+                    <input type="submit" value="Send order">
+                    <input type="reset" value="Clear form">
+                </form>
+            </fieldset>
+        </div>
+    </body>
+</html>
