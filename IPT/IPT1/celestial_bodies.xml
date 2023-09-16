@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<celestial_bodies>
+    <mercury>
+        <type>planet</type>
+        <diameter>4,879.4 km</diameter>
+        <temperature>167 C</temperature>
+    </mercury>
+    <venus>
+        <type>planet</type>
+        <diameter>12,104 km</diameter>
+        <temperature>475 C</temperature>
+    </venus>
+    <earth>
+        <type>planet</type>
+        <diameter>12,742 km</diameter>
+        <temperature>15 C</temperature>
+    </earth>
+    <mars>
+        <type>planet</type>
+        <diameter>6,778 km</diameter>
+        <temperature>-65 C</temperature>
+    </mars>
+    <sirius>
+        <type>star</type>
+        <diameter>2.4 million km</diameter>
+        <temperature>9,400 C</temperature>
+    </sirius>
+    <saturn>
+        <type>planet</type>
+        <diameter>116,460 km</diameter>
+        <temperature>-140 C</temperature>
+    </saturn>
+    <uranus>
+        <type>planet</type>
+        <diameter>50,724 km</diameter>
+        <temperature>-195 C</temperature>
+    </uranus>
+    <neptune>
+        <type>planet</type>
+        <diameter>49,244 km</diameter>
+        <temperature>-200 C</temperature>
+    </neptune>
+    <pluto>
+        <type>planet</type>
+        <diameter>454545</diameter>
+        <temperature>-231 C</temperature>
+    </pluto>
+    <sun>
+        <type>star</type>
+        <diameter>1.3927 million km</diameter>
+        <temperature>5600 C</temperature>
+    </sun>
+    <halleys_comet>
+        <type>comet</type>
+        <diameter>11 km</diameter>
+        <temperature>77 C</temperature>
+    </halleys_comet>
+    <deimos>
+        <type>satellite</type>
+        <diameter>12.4 km</diameter>
+        <temperature>-40 C</temperature>
+    </deimos>
+    <ceres>
+        <type>asteroid</type>
+        <diameter>946 km</diameter>
+        <temperature>-73 C</temperature>
+    </ceres>
+    <andromeda_galaxy>
+        <type>galaxy</type>
+        <diameter>2.0814 × 10^18 km</diameter>
+        <temperature>1,999,726.85 C</temperature>
+    </andromeda_galaxy>
+    <jupiter>
+        <type>planet</type>
+        <diameter>139,820 km</diameter>
+        <temperature>-110 C</temperature>
+    </jupiter>
+</celestial_bodies>
